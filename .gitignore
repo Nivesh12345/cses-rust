@@ -1,0 +1,10 @@
+# Rust specific ignores
+target/
+**/*.rs.bk
+Cargo.lock
+# Ignore compiled binaries
+*.exe
+*.out
+*.o
+*.so
+*.dll
