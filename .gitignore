@@ -1,10 +1,9 @@
-# Rust specific ignores
+# Ignore Rust build artifacts
 target/
-**/*.rs.bk
+**/*.exe
+**/*.out
+**/*.o
+**/*.so
+**/*.dll
 Cargo.lock
-# Ignore compiled binaries
-*.exe
-*.out
-*.o
-*.so
-*.dll
+
